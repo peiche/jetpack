@@ -52,9 +52,9 @@
 		"docker:clean": "yarn docker:compose down --rmi all -v && rm -rf docker/wordpress/* docker/wordpress/.htaccess docker/wordpress-develop/* docker/logs/* docker/data/mysql/*",
 		"docker:env": "node -e \"require('fs').createWriteStream( 'docker/.env', { flags: 'a' } );\"",
 		"docker:update-core-unit-tests": "yarn docker:compose exec wordpress svn up /tmp/wordpress-develop/tests/phpunit/data/ /tmp/wordpress-develop/tests/phpunit/includes",
-		"lint": "yarn lint:js && yarn lint:css",
+		"lint": "run-p lint:*",
 		"lint:js": "eslint -c .eslintrc.js --ext .js,.jsx . _inc extensions modules",
-		"lint:css": "stylelint \"extensions/**/*.scss\" --syntax scss",
+		"lint:css": "stylelint \"**/*.scss\" --syntax scss",
 		"php:compatibility": "composer php:compatibility",
 		"php:lint": "composer php:lint",
 		"php:autofix": "composer php:autofix",
@@ -68,7 +68,9 @@
 		"test-gui": "NODE_ENV=test NODE_PATH=tests:_inc/client tests/runner.js gui",
 		"test-modules": "NODE_ENV=test NODE_PATH=tests:_inc/client tests/runner.js modules",
 		"test-dangerci-and-adminpage-and-extensions": "yarn danger ci && yarn test-adminpage && yarn test-extensions",
-		"reformat-files": "./node_modules/.bin/prettier --ignore-path .eslintignore --write \"**/*.{js,jsx,json}\""
+		"reformat-files": "run-p reformat-files:*",
+		"reformat-files:js": "./node_modules/.bin/prettier --ignore-path .eslintignore --write \"**/*.{js,jsx,json}\"",
+		"reformat-files:css": "stylelint \"**/*.scss\" --syntax scss --fix"
 	},
 	"husky": {
 		"hooks": {
@@ -194,6 +196,7 @@
 		"mockery": "2.1.0",
 		"nock": "10.0.6",
 		"node-wp-i18n": "1.2.3",
+		"npm-run-all": "4.1.5",
 		"prettier": "npm:wp-prettier@1.18.2",
 		"puppeteer": "1.20.0",
 		"react-test-renderer": "16.8.6",
