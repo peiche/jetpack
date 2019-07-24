@@ -163,6 +163,20 @@ class WP_Test_Jetpack_Sync_Integration extends WP_Test_Jetpack_Sync_Base {
 		$this->assertEquals( 0, Settings::get_setting( 'render_filtered_content' ) );
 	}
 
+	public static function custom_jetpack_sync_modules( $modules ) {
+		return [ 'Automattic\\Jetpack\\Sync\\Modules\\Posts' ];
+	}
+
+	/**
+	 * @runInSeparateProcess
+	 */
+	function test_sync_custom_modules() {
+		add_filter( 'jetpack_sync_modules', [ __CLASS__, 'custom_jetpack_sync_modules' ], 99, 1 );
+
+		$this->assertTrue( Automattic\Jetpack\Sync\Modules::get_module('Posts' ) );
+		$this->assertFalse( Automattic\Jetpack\Sync\Modules::get_module('Constants' ) );
+	}
+
 	/**
 	 * Utility functions
 	 */
