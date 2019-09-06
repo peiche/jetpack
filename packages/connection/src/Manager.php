@@ -1749,7 +1749,6 @@ class Manager implements Manager_Interface {
 				return $url;
 			case 'NEVER':
 				return set_url_scheme( $url, 'http' );
-			// default : case 'AUTO' :
 		}
 
 		// we now return the unmodified SSL URL by default, as a security precaution
