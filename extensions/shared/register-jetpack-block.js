@@ -1,8 +1,10 @@
 /**
  * External dependencies
  */
+import { __ } from '@wordpress/i18n';
 import { addFilter } from '@wordpress/hooks';
 import { registerBlockType } from '@wordpress/blocks';
+import { Ribbon } from '@automattic/calypso-ui';
 
 /**
  * Internal dependencies
@@ -48,6 +50,14 @@ export default function registerJetpackBlock( name, settings, childBlocks = [] )
 		...settings,
 		title: betaExtensions.includes( name ) ? `${ settings.title } (beta)` : settings.title,
 		edit: requiredPlan ? wrapPaidBlock( { requiredPlan } )( settings.edit ) : settings.edit,
+		icon: requiredPlan ? (
+			<>
+				<Ribbon>{ __( 'Paid' ) }</Ribbon>
+				{ settings.icon }
+			</>
+		) : (
+			settings.icon
+		),
 	} );
 
 	if ( requiredPlan ) {
