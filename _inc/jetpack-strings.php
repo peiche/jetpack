@@ -103,8 +103,8 @@ _x( "Site connection", "Dashboard widget header", "jetpack" ), // _inc/client/at
 _x( "Account connection", "Dashboard widget header", "jetpack" ), // _inc/client/at-a-glance/connections.jsx:184
 __( "Security", "jetpack" ), // _inc/client/at-a-glance/index.jsx:59
 __( "Manage security settings", "jetpack" ), // _inc/client/at-a-glance/index.jsx:64
-__( "Connections", "jetpack" ), // _inc/client/at-a-glance/index.jsx:72
-__( "Performance", "jetpack" ), // _inc/client/at-a-glance/index.jsx:124
+__( "Connections", "jetpack" ), // _inc/client/at-a-glance/index.jsx:73
+__( "Performance", "jetpack" ), // _inc/client/at-a-glance/index.jsx:127
 __( "Downtime monitor", "jetpack" ), // _inc/client/at-a-glance/monitor.jsx:33
 __( "Jetpack’s downtime monitor will continuously monitor your site, and alert you the moment that downtime is detected.", "jetpack" ), // _inc/client/at-a-glance/monitor.jsx:36
 __( "Jetpack is monitoring your site. If we think your site is down, you will receive an email.", "jetpack" ), // _inc/client/at-a-glance/monitor.jsx:46
@@ -467,15 +467,21 @@ __( "Pinterest", "jetpack" ), // _inc/client/traffic/verification-services.jsx:1
 __( "Yandex", "jetpack" ), // _inc/client/traffic/verification-services.jsx:179
 __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the content will be copied including text, featured images, sharing settings, and more.", "jetpack" ), // _inc/client/writing/composing.jsx:56
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:160
 =======
+=======
+>>>>>>> Stashed changes
 __( "Use Markdown syntax to compose content with links, lists, and other styles. This setting enables Markdown in the Classic Editor as well as within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:113
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:149
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:159
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 __( "This feature has been disabled by a site administrator.", "jetpack" ), // _inc/client/writing/custom-content-types.jsx:67
 __( "Add {{testimonialLink}}testimonials{{/testimonialLink}} to your website to attract new customers. If your theme doesn’t support Jetpack Testimonials, you can still use a simple shortcode to display them on your site.", "jetpack" ), // _inc/client/writing/custom-content-types.jsx:78
