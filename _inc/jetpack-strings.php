@@ -466,10 +466,17 @@ __( "Bing", "jetpack" ), // _inc/client/traffic/verification-services.jsx:157
 __( "Pinterest", "jetpack" ), // _inc/client/traffic/verification-services.jsx:168
 __( "Yandex", "jetpack" ), // _inc/client/traffic/verification-services.jsx:179
 __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the content will be copied including text, featured images, sharing settings, and more.", "jetpack" ), // _inc/client/writing/composing.jsx:56
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:160
+=======
+__( "Use Markdown syntax to compose content with links, lists, and other styles. This setting enables Markdown in the Classic Editor as well as within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
+__( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:113
+__( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:149
+_x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:159
+>>>>>>> Stashed changes
 __( "This feature has been disabled by a site administrator.", "jetpack" ), // _inc/client/writing/custom-content-types.jsx:67
 __( "Add {{testimonialLink}}testimonials{{/testimonialLink}} to your website to attract new customers. If your theme doesn’t support Jetpack Testimonials, you can still use a simple shortcode to display them on your site.", "jetpack" ), // _inc/client/writing/custom-content-types.jsx:78
 __( "Testimonials", "jetpack" ), // _inc/client/writing/custom-content-types.jsx:96
