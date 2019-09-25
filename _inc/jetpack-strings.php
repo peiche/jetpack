@@ -468,6 +468,7 @@ __( "Yandex", "jetpack" ), // _inc/client/traffic/verification-services.jsx:179
 __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the content will be copied including text, featured images, sharing settings, and more.", "jetpack" ), // _inc/client/writing/composing.jsx:56
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
@@ -475,11 +476,16 @@ _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composin
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 __( "Use Markdown syntax to compose content with links, lists, and other styles. This setting enables Markdown in the Classic Editor as well as within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:113
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:149
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:159
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
