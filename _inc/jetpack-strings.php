@@ -353,7 +353,7 @@ __( "You have paid for backups and security scanning but they’re not yet activ
 __( "Click \"Set Up\" to finish installation.", "jetpack" ), // _inc/client/security/backups-scan.jsx:201
 _x( "Backups and security scanning", "Settings header", "jetpack" ), // _inc/client/security/backups-scan.jsx:237
 __( "Backs up your site to the global WordPress.com servers, allowing you to restore your content in the event of an emergency or error.", "jetpack" ), // _inc/client/security/backups-scan.jsx:245
-__( "Configure your Security Scans", "jetpack" ), // _inc/client/security/backups-scan.jsx:261
+__( "Configure your Security Scans", "jetpack" ), // _inc/client/security/backups-scan.jsx:262
 __( "Security", "jetpack" ), // _inc/client/security/index.jsx:92
 __( "Your site is protected by Jetpack. You’ll be notified if anything needs attention.", "jetpack" ), // _inc/client/security/index.jsx:93
 __( "Choose which plugins to auto-update", "jetpack" ), // _inc/client/security/manage-plugins.jsx:45
@@ -362,7 +362,7 @@ __( "With Jetpack you can choose to have your plugins auto-updated with each new
 _x( "Downtime monitoring", "Settings header", "jetpack" ), // _inc/client/security/monitor.jsx:31
 __( "Jetpack will continuously monitor your site, and alert you the moment downtime is detected.", "jetpack" ), // _inc/client/security/monitor.jsx:38
 __( "Get alerts if your site goes offline. We’ll let you know when it’s back up, too.", "jetpack" ), // _inc/client/security/monitor.jsx:52
-__( "Configure your notification settings", "jetpack" ), // _inc/client/security/monitor.jsx:65
+__( "Configure your notification settings", "jetpack" ), // _inc/client/security/monitor.jsx:66
 _x( "Brute force attack protection", "Settings header", "jetpack" ), // _inc/client/security/protect.jsx:96
 __( "Protects your site from traditional and distributed brute force login attacks.", "jetpack" ), // _inc/client/security/protect.jsx:109
 __( "Your current IP: %(ip)s", "jetpack" ), // _inc/client/security/protect.jsx:119
@@ -482,11 +482,14 @@ __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the cont
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:160
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -536,6 +539,9 @@ _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composin
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
