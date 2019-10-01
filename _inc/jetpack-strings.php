@@ -492,11 +492,14 @@ __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the cont
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:160
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -576,6 +579,9 @@ _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composin
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -711,6 +717,7 @@ __( "Site Stats", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:322
 __( "Get WordPress Apps for every device", "jetpack" ), // _inc/client/components/apps-card/index.jsx:67
 __( "Manage all your sites from a single dashboard: publish content, track stats, moderate comments, and so much more from anywhere in the world.", "jetpack" ), // _inc/client/components/apps-card/index.jsx:71
 __( "Download the free apps", "jetpack" ), // _inc/client/components/apps-card/index.jsx:81
+_n( "No activity this period", "Notice in the empty statistics chart", 1, "jetpack" ), // _inc/client/components/chart/index.jsx:124
 __( "Unlink me from WordPress.com", "jetpack" ), // _inc/client/components/connect-button/index.jsx:77
 __( "Link to WordPress.com", "jetpack" ), // _inc/client/components/connect-button/index.jsx:94
 __( "Manage site connection", "jetpack" ), // _inc/client/components/connect-button/index.jsx:117
