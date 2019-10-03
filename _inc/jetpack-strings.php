@@ -312,11 +312,14 @@ __( "Enable Lazy Loading for images", "jetpack" ), // _inc/client/performance/sp
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "You’re currently on Jetpack %(plan)s.", "jetpack" ), // _inc/client/plans/plan-grid.jsx:62
 __( "Your Plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:70
 __( "Manage your plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:72
 __( "View all Jetpack plans", "jetpack" ), // _inc/client/plans/plan-grid.jsx:74
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -389,6 +392,9 @@ __( "Yearly", "jetpack" ), // _inc/client/plans/plan-grid.jsx:109
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -660,11 +666,14 @@ __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the cont
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:160
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -825,6 +834,9 @@ _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composin
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1155,6 +1167,9 @@ _x( "Traffic", "Navigation item.", "jetpack" ), // _inc/client/components/naviga
 _x( "Sharing", "Navigation item.", "jetpack" ), // _inc/client/components/navigation-settings/index.jsx:203
 _x( "Writing", "Navigation item.", "jetpack" ), // _inc/client/components/navigation-settings/index.jsx:217
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
