@@ -70,7 +70,7 @@
 		"test-dangerci-and-adminpage-and-extensions": "yarn danger ci && yarn test-adminpage && yarn test-extensions",
 		"reformat-files": "run-p -c reformat-files:*",
 		"reformat-files:css": "npm run -s lint:css -- --fix || exit 0",
-		"reformat-files:js": "./node_modules/.bin/prettier --ignore-path .eslintignore --write \"**/*.{js,jsx,json}\""
+		"reformat-files:js": "prettier --ignore-path .eslintignore --write \"**/*.{js,jsx,json}\""
 	},
 	"husky": {
 		"hooks": {
@@ -204,8 +204,8 @@
 		"sinon-chai": "3.3.0",
 		"sinon": "7.5.0",
 		"style-loader": "0.23.1",
-		"stylelint-config-wordpress": "13.1.0",
-		"stylelint": "10.0.1",
+		"stylelint-config-wordpress": "15.0.0",
+		"stylelint": "11.0.0",
 		"url-loader": "1.1.2"
 	},
 	"engines": {
