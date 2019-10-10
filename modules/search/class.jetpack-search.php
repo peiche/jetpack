@@ -204,6 +204,7 @@ class Jetpack_Search {
 				$script_version = self::get_asset_version( $script_relative_path );
 				$script_path    = plugins_url( $script_relative_path, JETPACK__PLUGIN_FILE );
 				wp_enqueue_script( 'jetpack-instant-search', $script_path, array(), $script_version, true );
+				$this->load_and_initialize_tracks();
 
 				$filters = Jetpack_Search_Helpers::get_filters_from_widgets();
 				$widgets = array();
@@ -219,9 +220,10 @@ class Jetpack_Search {
 
 				// This is probably a temporary filter for testing the prototype.
 				$options = array(
-					'postTypes' => get_post_types(),
-					'siteId'		=> Jetpack::get_option( 'id' ),
-					'widgets' 	=> array_values( $widgets ),
+					'postTypes'      => get_post_types(),
+					'siteId'         => Jetpack::get_option( 'id' ),
+					'tracksUserData' => Jetpack_Tracks_Client::get_connected_user_tracks_identity(),
+					'widgets'        => array_values( $widgets ),
 				);
 				/**
 				 * Customize Instant Search Options.
@@ -246,6 +248,11 @@ class Jetpack_Search {
 				wp_enqueue_style( 'jetpack-instant-search', $style_path, array(), $style_version );
 			}
 		}
+	}
+
+	public function load_and_initialize_tracks() {
+		define( 'W_JS_VER', 60 ); // W_JS_VER
+		wp_enqueue_script( 'jetpack-instant-search-tracks', '//stats.wp.com/w.js', array(), W_JS_VER, true ); 
 	}
 
 	/**

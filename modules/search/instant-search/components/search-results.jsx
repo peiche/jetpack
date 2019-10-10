@@ -11,17 +11,29 @@ import { h, Component } from 'preact';
  */
 import SearchResultMinimal from './search-result-minimal';
 import ScrollButton from './scroll-button';
+import { getRailcarIdPrefix } from '../lib/tracks';
 
 class SearchResults extends Component {
-	render_result( result ) {
+	constructor( props ) {
+		super( props );
+		this.state = { railcarIdPrefix: getRailcarIdPrefix() };
+	}
+	renderResult = ( result, index ) => {
 		switch ( this.props.resultFormat ) {
 			case 'engagement':
 			case 'product':
 			case 'minimal':
 			default:
-				return <SearchResultMinimal result={ result } />;
+				return (
+					<SearchResultMinimal
+						result={ result }
+						index={ index }
+						railcarId={ `${ this.state.railcarIdPrefix }-${ index }` }
+						query={ this.props.query }
+					/>
+				);
 		}
-	}
+	};
 
 	render() {
 		const { query } = this.props;
@@ -61,7 +73,7 @@ class SearchResults extends Component {
 						{ sprintf( __( 'No results for "%s"', 'jetpack' ), query ) }
 					</p>
 				) }
-				{ results.map( result => this.render_result( result ) ) }
+				{ results.map( this.renderResult ) }
 				{ this.props.hasNextPage && (
 					<ScrollButton
 						enableLoadOnScroll
