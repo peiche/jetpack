@@ -54,7 +54,7 @@
 		"docker:update-core-unit-tests": "yarn docker:compose exec wordpress svn up /tmp/wordpress-develop/tests/phpunit/data/ /tmp/wordpress-develop/tests/phpunit/includes",
 		"lint": "npm-run-all --parallel lint:*",
 		"lint:js": "eslint -c .eslintrc.js --ext .js,.jsx . _inc extensions modules",
-		"lint:css": "stylelint \"**/*.scss\" --syntax scss",
+		"lint:scss": "stylelint \"**/*.scss\" --syntax scss",
 		"php:compatibility": "composer php:compatibility",
 		"php:lint": "composer php:lint",
 		"php:autofix": "composer php:autofix",
@@ -69,7 +69,7 @@
 		"test-modules": "NODE_ENV=test NODE_PATH=tests:_inc/client tests/runner.js modules",
 		"test-dangerci-and-adminpage-and-extensions": "yarn danger ci && yarn test-adminpage && yarn test-extensions",
 		"reformat-files": "npm-run-all --parallel --continue-on-error reformat-files:*",
-		"reformat-files:css": "npm run -s lint:css -- --fix || exit 0",
+		"reformat-files:scss": "npm run -s lint:scss -- --fix || exit 0",
 		"reformat-files:js": "prettier --ignore-path .eslintignore --write \"**/*.{js,jsx,json}\""
 	},
 	"husky": {
